@@ -1,0 +1,5 @@
+This project models an energy optimization strategy for wind power assets within the CAISO (California Independent System Operator) market, focusing on fluctuating energy production and demand, arbitrage opportunities, and battery storage optimization. Using linear programming, the model determines the optimal energy storage and sales strategy based on Locational Marginal Prices (LMPs) in the Day-Ahead Market (DAM).
+ I analyzed CAISO market dynamics, focusing on price volatility, demand response programs, and regulatory constraints—insights  applicable to other energy markets. To optimize power procurement and strategy, I modeled battery dynamics and peak demand shifting, ensuring maximum revenue while mitigating operational risks. Using real-time CAISO data from the OASIS API and wind resource datasets from NREL, I developed a data-driven approach to implement trading strategies. Using linear programming (PuLP in Python), I designed an algorithm to optimize battery charge/discharge cycles and energy sales, factoring in private contracts, market conditions, and efficiency losses. 
+ The project was completed  within two weeks. 
+
+
